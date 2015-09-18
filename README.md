@@ -16,6 +16,11 @@ Using easy_install
 easy_install beautifulsoup4
 ```
 
+### Installing for Linux Users
+```
+sudo apt-get python-bs4
+```
+
 ## Python 2.x and 3.x Support of *urlopen()*
 To support Python 2.x you simply need to use the import line 
 ```
