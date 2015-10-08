@@ -51,7 +51,7 @@ for i in range(numCompanies):
             arrowprops=dict(arrowstyle='-'),
             )
 
-# Labels and titles
+# Labels and titles on graph
 plt.xlabel('Company')
 plt.ylabel('Share Value')
 plt.title('Current Share Value for Companies')
@@ -68,6 +68,6 @@ for i, arrow in enumerate(arrows):
 
 print("--- %s seconds ---" % (time.time() - start_time))
 
-# Show graph
+# Show the graph
 fig.tight_layout()
 plt.show()
